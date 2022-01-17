@@ -1,0 +1,427 @@
+
+/* navber*/
+
+.navbar-nav{
+    text-align: right;
+}
+.navber{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+}
+.navbar-brand img{
+         height: 40px;
+         padding-left: 30px;
+}
+ .navbar-nav li{
+     padding: 0 10px;
+ }
+ .navbar-nav li a{
+     float: right;
+     text-align: left;
+ }
+ .navbar-nav li a:hover{
+    color: #007bff!important; 
+    text-align: left;
+}
+
+.navber-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 60px;
+}
+/**/
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+ }
+/*landing section */
+ 
+.logo-style img{
+    width: 140px;
+    height: 70px;
+    margin-right: 20px;
+    
+}
+.quote-link{
+    
+   background-color:rgb(216, 191, 206);
+    padding: 20px 40px;
+    border-radius: 33px;
+    
+      
+ }
+ .quote-link:hover{
+     color: whitesmoke;
+     background: tomato
+ }
+ .nav-link{
+     font-size: 18px;
+ }
+ 
+
+.button-link{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 20px ;
+    border-radius: 10px;
+    
+}
+
+.top-banner{
+    background-color: lightblue;
+    height: 100vh;
+    background-size: cover;
+}
+
+.top-img{
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    height: 70vh;
+    border: 1px solid white;
+    border-radius: 13px;
+
+    
+}
+.top-color{
+    color:#fff;
+}
+.carousol-item{
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+/* Home section */
+
+#home{
+    background-color: skyblue;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.home-center{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-center h1{
+    color: black;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.home-center h6{
+    color: black;
+    font-weight: 700;
+}
+.home-center p{
+    color: black;
+    font-weight:400;
+}
+
+.home-btn .btn-read{
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 33px;
+}
+
+
+.home-btn .btn-read:hover{
+    color: black;
+    background: white;
+}
+
+
+/* service */
+
+.hoverImage{
+    overflow: hidden;
+}
+.hoverImage img{
+    transition: 0.75s;
+}
+.hoverImage:hover img{
+    transform: scale(1.2);
+}
+
+.btn-cart{
+    border: 2px solid black;
+    background: #000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+
+}
+/*card section*/
+.text-color{
+    color: black
+}
+.bg-color{
+    background-color: pink;
+}
+.bgg-color{
+          background-color: skyblue;
+}
+
+
+/*card section end*/
+
+.btn-cart:hover{
+    background: none;
+    color: black;
+    transition: 0.50s;
+    text-decoration: none;
+
+}
+.btn-view{
+    border: 2px solid black;
+    background: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;  
+}
+.btn-view:hover{
+    background: #000;
+    color: white;
+    transition: 0.50s;
+    text-decoration: none;
+}
+
+/*photo*/
+
+.photo img{
+         align-items: center;
+         width: 100%;
+         height: 120%;
+         
+}
+.photo-work-together img{
+    width: 100%;
+    height: 80%;
+    
+}
+.text{
+    text-align: center;
+    margin-top: 50%;
+    
+}
+.click-button{
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 33px;
+    background: black;
+    font-weight: 700;
+}
+
+.click-button:hover{
+    color: black;
+    background: lightgray
+}
+
+/**/
+.client-service img{
+           width: 40%;
+}
+
+.service{
+       font-weight: 700;
+       text-align: center;
+       
+}
+
+.service h1{
+    color: lightgreen;
+}
+.service p{
+    color: lightslategray;
+}
+
+/*testimonial section */
+
+.carousel-inner{
+    text-align: center;
+}
+.carousel-inner .carousel-item .cat img{
+              border-radius: 50%;
+              height: 50%;
+             
+             
+}
+
+.carousel-inner .carousel-item .cat1{
+    margin-top: 20%;
+}
+.carousel-inner .carousel-item {
+    color: black;
+}
+
+/*satisfy*/
+.yes{
+        margin-left: 80%;
+}
+.oder-button{
+    margin-top: 30%;
+   
+}
+.satisfy{
+    background-color: #ededec;
+   
+}
+.reward-item-tittle{
+   color: lightslategray;
+}
+
+.reward-item-photo{
+    color: tomato;
+}
+
+.footer{
+    background-color: lightblue;
+    background-size: cover;
+    
+}
+
+/*fiooter*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eef8ff;
+}
+
+.img img{
+    width: 50px;
+}
+footer{
+    width: 100%;
+    position: absolute;
+   
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.rowf{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  
+}
+.colf{
+    flex-basis: 25%;
+    padding: 10px;
+    
+}
+
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    margin-left: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.links{
+    margin-left: 60px;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+
+  form input{
+      
+      background: transparent;
+      color: #ccc;
+      outline: none;
+      border: 0;
+
+  }
+  
+  form button{
+      background: transparent;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+  }
+  form button .fas{
+           font-size: 16px;
+           color: #ccc;
+  }
+  .social-icons .fab{
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         text-align: center;
+         line-height: 30px;
+         font-size: 20px;
+         color: #000;
+         background: #fff;
+         margin-right: 5px;
+         cursor: pointer;
+  }
+
+  .copyright{
+      text-align: center;
+  }
+ 
+  
+
+  
+/* footer end*/
+ 
